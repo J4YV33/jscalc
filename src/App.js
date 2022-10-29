@@ -15,6 +15,7 @@ function App() {
     };
 
     const handleEqual = () => {
+        // eslint-disable-next-line no-eval
         setDisplay(eval(display));
     };
 
